@@ -1116,109 +1116,121 @@ footer{
   </section>
 
   <!-- ======================= GALERIE ======================= -->
-  <section id="gallery">
-    <div class="container">
-      <div class="sec-head reveal">
-        <span class="tag" data-i18n="gallery.tag">Moments</span>
-        <h2 class="sec-title"><span class="grad" data-i18n="gallery.title">Galerie</span></h2>
-        <p class="sec-sub" data-i18n="gallery.sub">Quelques instants de mon parcours.</p>
-      </div>
-
-      <div class="grid" id="galleryGrid">
-
-        <!-- Photo 1 -->
-        <div class="gal-item reveal"
-             style="background:linear-gradient(135deg,#c084fc,#8b5cf6)"
-             data-emoji="📊" data-bg="linear-gradient(135deg,#c084fc,#8b5cf6)"
-             tabindex="0" role="button" aria-label="Travail d'équipe">
-          <img class="gal-img"
-               src="file:///C:/Users/yathr/OneDrive/Desktop/RW/p1.jpg"
-               alt="Travail d'équipe"
-               loading="lazy"
-               onerror="this.parentElement.classList.add('no-img')">
-          <span class="gal-emoji">📊</span>
-          <span class="gal-zoom"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-          <span class="gal-label" data-i18n="g1">Travail d'équipe</span>
-        </div>
-
-        <!-- Photo 2 -->
-        <div class="gal-item reveal"
-             style="background:linear-gradient(135deg,#f472b6,#c084fc)"
-             data-emoji="💻" data-bg="linear-gradient(135deg,#f472b6,#c084fc)"
-             tabindex="0" role="button" aria-label="Analyse de données">
-          <img class="gal-img"
-               src="file:///C:/Users/yathr/OneDrive/Desktop/RW/p2.jpg"
-               alt="Analyse de données"
-               loading="lazy"
-               onerror="this.parentElement.classList.add('no-img')">
-          <span class="gal-emoji">💻</span>
-          <span class="gal-zoom"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-          <span class="gal-label" data-i18n="g2">Analyse de données</span>
-        </div>
-
-        <!-- Photo 3 -->
-        <div class="gal-item reveal"
-             style="background:linear-gradient(135deg,#8b5cf6,#f472b6)"
-             data-emoji="🗄️" data-bg="linear-gradient(135deg,#8b5cf6,#f472b6)"
-             tabindex="0" role="button" aria-label="">
-          <img class="gal-img"
-               src="file:///C:/Users/yathr/OneDrive/Desktop/RW/p3.jpg"
-               alt=""
-               loading="lazy"
-               onerror="this.parentElement.classList.add('no-img')">
-          <span class="gal-emoji">🗄️</span>
-          <span class="gal-zoom"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-          <span class="gal-label" data-i18n="g3"></span>
-        </div>
-
-        <!-- Photo 4 -->
-        <div class="gal-item reveal"
-             style="background:linear-gradient(135deg,#c084fc,#f472b6)"
-             data-emoji="☕" data-bg="linear-gradient(135deg,#c084fc,#f472b6)"
-             tabindex="0" role="button" aria-label="Programmation Java">
-          <img class="gal-img"
-               src="file:///C:/Users/yathr/OneDrive/Desktop/RW/p4.jpg"
-               alt="Programmation Java"
-               loading="lazy"
-               onerror="this.parentElement.classList.add('no-img')">
-          <span class="gal-emoji">☕</span>
-          <span class="gal-zoom"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-          <span class="gal-label" data-i18n="g4">Programmation Java</span>
-        </div>
-
-        <!-- Photo 5 -->
-        <div class="gal-item reveal"
-             style="background:linear-gradient(135deg,#f472b6,#a855f7)"
-             data-emoji="🤝" data-bg="linear-gradient(135deg,#f472b6,#a855f7)"
-             tabindex="0" role="button" aria-label="Travail ">
-          <img class="gal-img"
-               src="file:///C:/Users/yathr/OneDrive/Desktop/RW/p5.jpg"
-               alt="Travail"
-               loading="lazy"
-               onerror="this.parentElement.classList.add('no-img')">
-          <span class="gal-emoji">🤝</span>
-          <span class="gal-zoom"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-          <span class="gal-label" data-i18n="g5">Travail </span>
-        </div>
-
-        <!-- Photo 6 -->
-        <div class="gal-item reveal"
-             style="background:linear-gradient(135deg,#a855f7,#f472b6)"
-             data-emoji="🎓" data-bg="linear-gradient(135deg,#a855f7,#f472b6)"
-             tabindex="0" role="button" aria-label="Vie de campus">
-          <img class="gal-img"
-               src="file:///C:/Users/yathr/OneDrive/Desktop/RW/p6.jpg"
-               alt="Vie de campus"
-               loading="lazy"
-               onerror="this.parentElement.classList.add('no-img')">
-          <span class="gal-emoji">🎓</span>
-          <span class="gal-zoom"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
-          <span class="gal-label" data-i18n="g6">Vie de campus</span>
-        </div>
-
-      </div>
+<section id="gallery" aria-labelledby="gallery-heading">
+  <div class="container">
+    <div class="sec-head reveal">
+      <span class="tag">Galerie & Réalisations</span>
+      <h2 id="gallery-heading" class="sec-title">Projets & <span class="grad">Vie Académique</span></h2>
+      <p class="sec-sub">Aperçu de mon parcours en Business Computing à l'ESSECT Tunis</p>
     </div>
-  </section>
+
+    <div class="grid">
+
+      <!-- Photo 1 : Travail d'équipe & Business Computing -->
+      <article class="gal-item reveal"
+           style="background:linear-gradient(135deg,#c084fc,#8b5cf6)"
+           data-emoji="📊" data-bg="linear-gradient(135deg,#c084fc,#8b5cf6)"
+           tabindex="0" role="button" aria-label="Travail d'équipe en Business Computing à l'ESSECT Tunis">
+        <img class="gal-img"
+             src="p1.jpg"
+             alt="Yathreb Dellai en travail d'équipe et gestion de projet informatique à l'ESSECT Tunis"
+             title="Travail d'équipe et collaboration académique - Yathreb Dellai"
+             loading="lazy"
+             decoding="async"
+             onerror="this.parentElement.classList.add('no-img')">
+        <span class="gal-emoji" aria-hidden="true">📊</span>
+        <span class="gal-zoom" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-label" data-i18n="g1">Travail d'équipe & Projets</span>
+      </article>
+
+      <!-- Photo 2 : Analyse de données & Power BI -->
+      <article class="gal-item reveal"
+           style="background:linear-gradient(135deg,#f472b6,#c084fc)"
+           data-emoji="💻" data-bg="linear-gradient(135deg,#f472b6,#c084fc)"
+           tabindex="0" role="button" aria-label="Session d'analyse de données et tableaux de bord Power BI">
+        <img class="gal-img"
+             src="p2.jpg"
+             alt="Analyse de données, Power BI et Business Intelligence par Yathreb Dellai"
+             title="Analyse de données et Business Intelligence"
+             loading="lazy"
+             decoding="async"
+             onerror="this.parentElement.classList.add('no-img')">
+        <span class="gal-emoji" aria-hidden="true">💻</span>
+        <span class="gal-zoom" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-label" data-i18n="g2">Analyse de données & BI</span>
+      </article>
+
+      <!-- Photo 3 : Bases de données & SQL -->
+      <article class="gal-item reveal"
+           style="background:linear-gradient(135deg,#8b5cf6,#f472b6)"
+           data-emoji="🗄️" data-bg="linear-gradient(135deg,#8b5cf6,#f472b6)"
+           tabindex="0" role="button" aria-label="Conception et gestion de bases de données SQL">
+        <img class="gal-img"
+             src="p3.jpg"
+             alt="Modélisation et requêtes de bases de données SQL - Projet Business Computing"
+             title="Gestion et optimisation de bases de données SQL"
+             loading="lazy"
+             decoding="async"
+             onerror="this.parentElement.classList.add('no-img')">
+        <span class="gal-emoji" aria-hidden="true">🗄️</span>
+        <span class="gal-zoom" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-label" data-i18n="g3">Bases de données SQL</span>
+      </article>
+
+      <!-- Photo 4 : Programmation Java & Développement -->
+      <article class="gal-item reveal"
+           style="background:linear-gradient(135deg,#c084fc,#f472b6)"
+           data-emoji="☕" data-bg="linear-gradient(135deg,#c084fc,#f472b6)"
+           tabindex="0" role="button" aria-label="Développement d'applications en Java et Programmation">
+        <img class="gal-img"
+             src="p4.jpg"
+             alt="Projet de programmation Java et développement orienté objet par Yathreb Dellai"
+             title="Développement d'applications Java"
+             loading="lazy"
+             decoding="async"
+             onerror="this.parentElement.classList.add('no-img')">
+        <span class="gal-emoji" aria-hidden="true">☕</span>
+        <span class="gal-zoom" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-label" data-i18n="g4">Programmation Java</span>
+      </article>
+
+      <!-- Photo 5 : Travail collaboratif & Automatisation n8n -->
+      <article class="gal-item reveal"
+           style="background:linear-gradient(135deg,#f472b6,#a855f7)"
+           data-emoji="🤝" data-bg="linear-gradient(135deg,#f472b6,#a855f7)"
+           tabindex="0" role="button" aria-label="Travail collaboratif et automatisation de workflows avec n8n">
+        <img class="gal-img"
+             src="p5.jpg"
+             alt="Travail collaboratif sur des projets d'automatisation n8n et solutions Web à Tunis"
+             title="Collaboration et automatisation de processus"
+             loading="lazy"
+             decoding="async"
+             onerror="this.parentElement.classList.add('no-img')">
+        <span class="gal-emoji" aria-hidden="true">🤝</span>
+        <span class="gal-zoom" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-label" data-i18n="g5">Travail collaboratif & Workflow</span>
+      </article>
+
+      <!-- Photo 6 : Vie académique à l'ESSECT Tunis -->
+      <article class="gal-item reveal"
+           style="background:linear-gradient(135deg,#a855f7,#f472b6)"
+           data-emoji="🎓" data-bg="linear-gradient(135deg,#a855f7,#f472b6)"
+           tabindex="0" role="button" aria-label="Vie universitaire et académique à l'ESSECT Tunis">
+        <img class="gal-img"
+             src="p6.jpg"
+             alt="Yathreb Dellai - Étudiante en 3ème année Licence Business Computing à l'ESSECT Tunis"
+             title="Parcours universitaire à l'ESSECT Tunis"
+             loading="lazy"
+             decoding="async"
+             onerror="this.parentElement.classList.add('no-img')">
+        <span class="gal-emoji" aria-hidden="true">🎓</span>
+        <span class="gal-zoom" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.35-4.35M11 8v6M8 11h6"/></svg></span>
+        <span class="gal-label" data-i18n="g6">Vie de campus (ESSECT Tunis)</span>
+      </article>
+
+    </div>
+  </div>
+</section>
 
   <!-- ======================= CONTACT ======================= -->
   <section id="contact">
